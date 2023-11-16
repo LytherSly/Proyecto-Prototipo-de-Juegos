@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public int MaxHealth;
     public int CurrentHealth;
     public Slider HealthBar;
+    public float speed = 3;
 
     public Weapon weapon;
     public Rigidbody2D rb;
@@ -26,22 +27,22 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float v = Input.GetAxisRaw("Vertical") * Time.deltaTime;
-        float h = Input.GetAxisRaw("Horizontal") * Time.deltaTime;
+        float v = Input.GetAxisRaw("Vertical");
+        float h = Input.GetAxisRaw("Horizontal");
+
+        moveDirection = new Vector2(h, v).normalized;
+        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         if (Input.GetMouseButtonDown(0))
         {
             weapon.Fire();
         }
 
-        moveDirection = new Vector2(h, v).normalized;
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
         HealthBar.value = CurrentHealth;
     }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveDirection.x * 5, moveDirection.y * 5);
+        rb.velocity = moveDirection * speed;
 
         Vector2 aimDirection = mousePosition - rb.position;
         float aimangle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
@@ -61,6 +62,10 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             Hit(other.GetComponent<EnemyDamage>().TotalDamage());
+        }
+        if (other.CompareTag("Madrigera"))
+        {
+            CurrentHealth = MaxHealth;
         }
     }
     IEnumerator OpenMenu()
