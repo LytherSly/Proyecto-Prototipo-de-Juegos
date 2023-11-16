@@ -57,13 +57,13 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(OpenMenu());
         }
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
         {
             Hit(other.GetComponent<EnemyDamage>().TotalDamage());
         }
-        if (other.CompareTag("Madrigera"))
+        if (other.CompareTag("Madriguera"))
         {
             CurrentHealth = MaxHealth;
         }

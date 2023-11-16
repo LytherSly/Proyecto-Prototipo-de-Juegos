@@ -3118,7 +3118,7 @@ GameObject:
   - component: {fileID: 118769066}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5240,7 +5240,7 @@ GameObject:
   - component: {fileID: 204007412}
   m_Layer: 0
   m_Name: MADRIGUERA
-  m_TagString: Untagged
+  m_TagString: Madriguera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11608,7 +11608,7 @@ GameObject:
   - component: {fileID: 503467094}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12059,7 +12059,7 @@ GameObject:
   - component: {fileID: 531292026}
   m_Layer: 0
   m_Name: Enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15791,7 +15791,7 @@ GameObject:
   - component: {fileID: 687665435}
   m_Layer: 0
   m_Name: Enemy (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19582,7 +19582,7 @@ GameObject:
   - component: {fileID: 908929878}
   m_Layer: 0
   m_Name: Enemy (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20635,7 +20635,7 @@ GameObject:
   - component: {fileID: 953078379}
   m_Layer: 0
   m_Name: Enemy (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23643,7 +23643,7 @@ GameObject:
   - component: {fileID: 1082268563}
   m_Layer: 0
   m_Name: Enemy (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27866,7 +27866,7 @@ GameObject:
   - component: {fileID: 1309434498}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28596,7 +28596,7 @@ GameObject:
   - component: {fileID: 1343349217}
   m_Layer: 0
   m_Name: Enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32326,7 +32326,7 @@ GameObject:
   - component: {fileID: 1481917332}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
