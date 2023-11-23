@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public int BaseDamage;
+    
     void Start()
     {
         BaseDamage = 1;

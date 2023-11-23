@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,10 @@ public class PlayerController : MonoBehaviour
 {
     public bool isDeathMenu;
     public GameObject DeathMenu;
+    public static event Action OnPlayerDamaged;
 
-    public int MaxHealth;
-    public int CurrentHealth;
-    public Slider HealthBar;
+    public int health, maxHealth;
+
     public float speed = 3;
 
     public Weapon weapon;
@@ -20,8 +21,7 @@ public class PlayerController : MonoBehaviour
     Vector2 mousePosition;
     private void Start()
     {
-        CurrentHealth = MaxHealth;
-        HealthBar.value = MaxHealth;
+        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -37,8 +37,6 @@ public class PlayerController : MonoBehaviour
         {
             weapon.Fire();
         }
-
-        HealthBar.value = CurrentHealth;
     }
     private void FixedUpdate()
     {
@@ -50,22 +48,27 @@ public class PlayerController : MonoBehaviour
     }
     public void Hit(int damage)
     {
-        CurrentHealth -= damage;
-        if (CurrentHealth < 1)
+        health -= damage;
+        OnPlayerDamaged?.Invoke();
+
+        if (health <= 0)
         {
             Time.timeScale = 0.2f;
             StartCoroutine(OpenMenu());
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Hit(collision.gameObject.GetComponent<EnemyDamage>().TotalDamage());
+        }
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy"))
-        {
-            Hit(other.GetComponent<EnemyDamage>().TotalDamage());
-        }
         if (other.CompareTag("Madriguera"))
         {
-            CurrentHealth = MaxHealth;
+            health = maxHealth;
         }
     }
     IEnumerator OpenMenu()
@@ -78,4 +81,5 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 0;
         }
     }
+    
 }

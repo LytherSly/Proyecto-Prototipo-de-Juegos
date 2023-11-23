@@ -1,0 +1,1191 @@
+fileFormatVersion: 2
+guid: 8bf7126a95645fb469e55a16efbbb66e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560f230939a72874e90daf8531ee0094
+      internalID: 830066711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 325
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fda163c11e14204b9b3552891e69284
+      internalID: 738052879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 321
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed3f3fb3bde4d04995a75538a5338a9
+      internalID: -1518124651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 323
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b2505c2f0beb54e8a37c43ecb24dc3
+      internalID: 1430498901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 321
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6f8669243b38a4ca404a930cdd4e4d
+      internalID: 1130626604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 321
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5a725425a261445b47c220b4c62e6f
+      internalID: 1673782940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 318
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5c6bb18b91e0048b672e02a09ceef6
+      internalID: -154150525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 318
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5363a616cc28e4c8f517cd267f9f7b
+      internalID: -2124683846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e4e7f3f835bba448b7995513f78638
+      internalID: 392730013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 254
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d78e2cf1fff9546a1c261f4c2d82cc
+      internalID: -262197374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 253
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1993c9d7e1d0a43bf79196906f20f8
+      internalID: -303895828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 255
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80493566f33c9f4c8289c016254910a
+      internalID: 2004625902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 257
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828a37bd2f8429641ac67d89cc1f2a90
+      internalID: -907436101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 257
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db451e8887b4ebe40a6e299a66c82587
+      internalID: -321718385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 256
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e10a74df6dd3ca498e5f4b9026465db
+      internalID: -745508265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 254
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db80b63c70d60c4a9cee71eb704e612
+      internalID: 2109464618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884b80cab7d94b346b58d07a0e955ef6
+      internalID: -478538195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 193
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f696db06a68263c49954f56339457706
+      internalID: 443360559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 194
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f68eee5853b2142a44d9b490896fc6
+      internalID: 1904949093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 194
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eafac1516a82554c93bc7a85e4a4078
+      internalID: 496912485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 196
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a962401dfda2646910ef8fb51c4326
+      internalID: 928360321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 197
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760dde8d1d95e024795c6a2af89ef91c
+      internalID: 527687550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 198
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1651dd9cbdd324488dd580d4574bb0b
+      internalID: 178586476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 200
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04fd35668407484591e670db4ce9438
+      internalID: 2016478005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 118
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cbf8c0433a1704caa8619526c53b79
+      internalID: 1217923927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 120
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b219e3dca812894abe010187729587e
+      internalID: -717847152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 126
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e485eedceaf9cc04e95bbb37bb7ef99d
+      internalID: 984026389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 127
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87af113f31ea4334aa3484f874dda2f8
+      internalID: -518235482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 124
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1955299813cb2e4893378783d71a5f4
+      internalID: -935682751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 124
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4308321a34c01748aec14de191c7773
+      internalID: -65418507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 124
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016cf6e4ab1059a4a8f6abb164a707c4
+      internalID: -1421513330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 124
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd19f90ec3ae8844941f20699531661
+      internalID: -44921573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 58
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f878cbc7359d46811cb32bc0a0f74
+      internalID: 400850633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 59
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b75107e6981c444e96a62cfdc2919ad
+      internalID: -377871043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 60
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fe7a962f3cf1f41b1dc8cf3457b40b
+      internalID: -767622903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308d9f0ad179eca4da7e05a5459d69cc
+      internalID: 1278212231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 65
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bbeb141e770a647ab6c012a3dc2c76
+      internalID: 1836077301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260cb80f88c495c4e86006cd0445a6a9
+      internalID: 2027719220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 66
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bf996dce4e18d4b92ae1ee748efad3
+      internalID: 262997525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 67
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006ef45a091c9b548a6f3876fb42dea6
+      internalID: -1891188697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9a773be206bfd498bcfc2078c207fd
+      internalID: 635924495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1143361b9a9e46acd191aeb6e20ee
+      internalID: -1042249124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822a0a379c5e4484e87ecf8acdc6cdeb
+      internalID: -2001438277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ebef143cc1f7942a4c5ed962ff87e0
+      internalID: 1641170575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1c9734d0765d94d985c6bbd5b72164
+      internalID: 657353896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 5
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695a84c86b3485e41be0bff770eba643
+      internalID: -860247326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 6
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae845606c10854eab226eee133e3b7
+      internalID: -563204157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Koda Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 5
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa13836887a45b94c8a51c41d36b717f
+      internalID: 1664903483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Koda Sprite Sheet_11: 2004625902
+      Koda Sprite Sheet_12: -907436101
+      Koda Sprite Sheet_42: -2001438277
+      Koda Sprite Sheet_9: -262197374
+      Koda Sprite Sheet_29: -65418507
+      Koda Sprite Sheet_35: 1278212231
+      Koda Sprite Sheet_28: -935682751
+      Koda Sprite Sheet_6: -154150525
+      Koda Sprite Sheet_45: -860247326
+      Koda Sprite Sheet_23: 2016478005
+      Koda Sprite Sheet_39: -1891188697
+      Koda Sprite Sheet_8: 392730013
+      Koda Sprite Sheet_30: -1421513330
+      Koda Sprite Sheet_32: 400850633
+      Koda Sprite Sheet_16: -478538195
+      Koda Sprite Sheet_14: -745508265
+      Koda Sprite Sheet_25: -717847152
+      Koda Sprite Sheet_43: 1641170575
+      Koda Sprite Sheet_4: 1130626604
+      Koda Sprite Sheet_46: -563204157
+      Koda Sprite Sheet_19: 496912485
+      Koda Sprite Sheet_44: 657353896
+      Koda Sprite Sheet_37: 2027719220
+      Koda Sprite Sheet_34: -767622903
+      Koda Sprite Sheet_33: -377871043
+      Koda Sprite Sheet_15: 2109464618
+      Koda Sprite Sheet_26: 984026389
+      Koda Sprite Sheet_17: 443360559
+      Koda Sprite Sheet_0: 830066711
+      Koda Sprite Sheet_31: -44921573
+      Koda Sprite Sheet_22: 178586476
+      Koda Sprite Sheet_27: -518235482
+      Koda Sprite Sheet_47: 1664903483
+      Koda Sprite Sheet_40: 635924495
+      Koda Sprite Sheet_2: -1518124651
+      Koda Sprite Sheet_18: 1904949093
+      Koda Sprite Sheet_21: 527687550
+      Koda Sprite Sheet_10: -303895828
+      Koda Sprite Sheet_5: 1673782940
+      Koda Sprite Sheet_7: -2124683846
+      Koda Sprite Sheet_3: 1430498901
+      Koda Sprite Sheet_41: -1042249124
+      Koda Sprite Sheet_20: 928360321
+      Koda Sprite Sheet_13: -321718385
+      Koda Sprite Sheet_1: 738052879
+      Koda Sprite Sheet_36: 1836077301
+      Koda Sprite Sheet_24: 1217923927
+      Koda Sprite Sheet_38: 262997525
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
