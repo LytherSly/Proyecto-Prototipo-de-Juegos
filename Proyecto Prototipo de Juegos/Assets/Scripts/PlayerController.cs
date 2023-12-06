@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
     public bool isDeathMenu;
     public GameObject DeathMenu;
     public static event Action OnPlayerDamaged;
+
+    public AudioClip Deathclip;
+    public AudioSource Music;
 
     public int health, maxHealth;
 
@@ -78,6 +82,8 @@ public class PlayerController : MonoBehaviour
         if (isDeathMenu == true)
         {
             DeathMenu.SetActive(true);
+            Music.clip = Deathclip;
+            Music.Play();
             Time.timeScale = 0;
         }
     }

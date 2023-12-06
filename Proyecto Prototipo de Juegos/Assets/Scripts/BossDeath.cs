@@ -17,6 +17,7 @@ public class BossDeath : MonoBehaviour
     IEnumerator Ganaste()
     {
         yield return new WaitForSecondsRealtime(0.5f);
+        Time.timeScale = 0;
         WinMenu.SetActive(true);
     }
 }
